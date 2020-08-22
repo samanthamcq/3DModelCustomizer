@@ -7,7 +7,7 @@ const SwatchSelections = ({ updateSelectedColor, updateSelectedTexture }) => {
     '#45392a',
     '#cd950c',
     '#cd9b9b',
-    '#8000ff',
+    '#4169e1',
   ];
   const textures = [
     'denim.jpg',
