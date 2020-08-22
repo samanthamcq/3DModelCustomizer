@@ -9,6 +9,13 @@ export default function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh
+        rotation={[-Math.PI / 2, 0, 0]}
+        position={[0, -3, 0]}
+        receiveShadow>
+        <planeBufferGeometry attach='geometry' args={[500, 500]} />
+        <meshPhongMaterial attach='material'/>
+      </mesh>
+      <mesh
         material={nodes.supports.material}
         geometry={nodes.supports.geometry}
         rotation={[-Math.PI, 0, -Math.PI]}
