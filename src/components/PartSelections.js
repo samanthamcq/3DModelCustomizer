@@ -18,7 +18,7 @@ const PartSelections = ({ updateSelectedPart }) => {
         onClick={onPartUpdate} >
         <img
           className={classes.image}
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/cushions.svg" alt="" />
+          src='front_cushion.png' alt='cushion' />
       </div>
       <div
         key={'leg'}
@@ -26,7 +26,7 @@ const PartSelections = ({ updateSelectedPart }) => {
         onClick={onPartUpdate} >
         <img
           className={classes.image}
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/legs.svg" alt="" />
+          src='front_frame.png' alt='legs' />
       </div>
     </div>
   );
