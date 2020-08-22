@@ -33,13 +33,3 @@ const PartSelections = ({ updateSelectedPart }) => {
 };
 
 export default PartSelections;
-
-// <div class="options">
-    //   <div class="option --is-active" data-option="legs">
-    //     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/legs.svg" alt="" />
-    //   </div>
-    //   <div class="option" data-option="cushions">
-    //     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/cushions.svg" alt="" />
-    //   </div>
-    // </div>
-  //);

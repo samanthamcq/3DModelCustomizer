@@ -3,16 +3,22 @@
   position: absolute;
   display: flex;
   height: 50px;
-  width: 50%;
+  width: 100%;
 }
 
 .swatch {
   height: 50px;
   max-width: 50px;
   flex: 1;
+  cursor: pointer;
 }
 
 .texture {
   height: 50px;
   width: 50px;
+}
+
+.disabled {
+  opacity: .3;
+  pointer-events: none;
 }

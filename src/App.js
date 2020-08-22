@@ -101,6 +101,7 @@ export default function App() {
     <SwatchSelections
       updateSelectedColor={updateSelectedColor}
       updateSelectedTexture={updateSelectedTexture}
+      activePart={activePart}
     />
     </>
   );
